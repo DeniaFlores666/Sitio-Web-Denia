@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Ejercicio 4</title>
+
+<style>
+
+body {
+ 
+font-family: Arial, sans-serif;
+        
+}
+        
+.contenedor {
+           
+ border: 2px solid green;
+            
+padding: 10px;
+            
+width: fit-content;
+        
+}
+    
+</style>
+
+</head>
+
+<body>
+
+   
+ <div class="contenedor">
+        
+<h3>Ejercicio #4 (&nbsp;)</h3>
+        
+<p>Lorem ipsum</p>
+
+<p>Lorem &nbsp;&nbsp; ipsum</p>
+  
+<p>Lorem &nbsp;&nbsp;&nbsp; ipsum</p>
+        
+<p>Lorem &nbsp;&nbsp;&nbsp;&nbsp; ipsum</p>
+   
+</div>
+
+
+</body>
+
+</html

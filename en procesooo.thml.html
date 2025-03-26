@@ -1,0 +1,173 @@
+<htmlL>
+    <head>
+
+    <title>Segundo ejercicio formulario</title>
+
+    </head>
+
+    <body bgcolor="sky blue">
+
+
+    <font><h1 align="center">FORMULARIO COMPLETO</h1></font>
+
+    <form action="procesa.php" method="post">
+
+    <table align="center" bordercolor="#FFCC00" border="1" cellspacing="10">
+
+    <tr>
+        
+    <td> Texto: </td>
+
+    <td><input type="text" name="texto1"></td>
+
+    <td>Password:</td>
+
+    <td><input type="password" name="pass"></td>
+
+    </tr>
+
+    <tr>
+
+    <td>Textarea:</td>
+
+    <td colspan="3"><textarea rows="7" cols="55"></textarea></td>
+
+    </tr>
+    
+    <tr>
+
+    <td>Campo check 1:<input type="checkbox" value="1"><br>
+
+    Campo check 2:<input type="checkbox" value="2"><br>
+
+    Campo check 3:<input type="checkbox" value="3">
+
+    </td>
+
+    <td align="middle">Radio 1:<input type="radio" value="1"><br>
+    Radio 2:<input type="radio" value="2">
+
+    </td>
+
+    <td valign="top">selección:
+    Clase: Desarrollo Web
+
+    <select name="seleccion">
+
+    <option>primera</option>
+
+    <option>segunda</option>
+
+    </select>
+
+    </td>
+
+    <td align="center">selección multiple:<br>
+
+    <select name="seleccion" multiple>
+
+    <option>primera</option>
+
+    <option>segunda</option>
+
+    <option>tercera</option>
+
+    </select>
+
+    </td>
+
+    </tr>
+
+    </table><br>
+
+    <div align="center">
+
+    <input type="button" value="Boton">
+
+    <input type="reset" value="Iniciar">
+
+    <input type="submit" value="Enviar">
+    <style>
+.container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #d62525;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+}
+
+.header h1 {
+    color: rgb(16, 4, 29);
+}
+
+.footer {
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    width: 10%;
+    background-color: #29a7ca;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 85%;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+    </style>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1> MIS FORMULARIOS</h1>
+                </div>
+
+        <div class="content">
+            <div class="sidebar">
+                <h2> menu</h2>
+                <ul>
+                   <li><a href="index.html">inicio</a></li>
+                   <li><a href="formulario.html" target="frameformulario">Formulario 1</a></li>
+                   <li><a href="formulario2.html" target="frameformulario">Formulario 2</a></li>
+                   <li><a href="formulario3.html" target="frameformulario">Formulario 3</a></li>
+                   <li><a href="formulario4.html" target="frameformulario">Formulario 4</a></li>
+                   </ul>
+                </div>
+                <div class="main">
+                    <h2>Contenido Principal</h2>
+                    <p>Bienvenido a mi página web. Aqui encontraras informaciom interesante.</p>
+                    <iframe name="frameformulario"></iframe>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Derechos reservados &copy; 2025</p>
+            </div>
+        </div>
+    </body>
+    </html>
+                   
+    
